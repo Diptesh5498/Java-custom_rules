@@ -1,0 +1,27 @@
+{
+  "title": "Cipher algorithms should be robust",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "privacy",
+    "owasp-a6",
+    "sans-top25-porous",
+    "owasp-a3",
+    "owasp-m5"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-5547",
+  "sqKey": "S5547",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "MSC61-J."
+    ]
+  },
+  "quickfix": "unknown"
+}
